@@ -154,7 +154,7 @@ function draw()
 	else if(flagpole.isReached){
 		fill(255,0,0);
 		textSize(50);
-		text('level complete',width/2,height/2,500,500);
+		text('very nice ujjwal gandu',width/2,height/2,500,500);
 		if(backgroundSound.isPlaying){
 			backgroundSound.pause();
 			if(c==0){
