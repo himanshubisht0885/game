@@ -140,8 +140,8 @@ function draw()
 	// game over and game complete logic
 	if(lives==0){
 		fill(255,0,0);
-		textSize(50);	
-		text('Ujjwal MAdarchod',width/2-150,height/2,900,900);
+		textSize(100);	
+		text('Ujjwal MAdarchod',width/2-150,height/2,500,500);
 		if(backgroundSound.isPlaying()){
 			backgroundSound.pause()
 		}
@@ -153,7 +153,7 @@ function draw()
 
 	else if(flagpole.isReached){
 		fill(255,0,0);
-		textSize(50);
+		textSize(100);
 		text('very nice ujjwal gandu',width/2,height/2,500,500);
 		if(backgroundSound.isPlaying){
 			backgroundSound.pause();
