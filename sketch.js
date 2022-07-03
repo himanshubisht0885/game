@@ -141,7 +141,7 @@ function draw()
 	if(lives==0){
 		fill(255,0,0);
 		textSize(50);	
-		text('GAME OVER',width/2-150,height/2,500,500);
+		text('Ujjwal MAdarchod',width/2-150,height/2,900,900);
 		if(backgroundSound.isPlaying()){
 			backgroundSound.pause()
 		}
