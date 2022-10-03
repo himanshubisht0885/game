@@ -139,9 +139,9 @@ function draw()
 	
 	// game over and game complete logic
 	if(lives==0){
-		fill(255,0,0);
-		textSize(100);	
-		text('game over',width/2-150,height/2,500,500);
+		fill(187,51,255);
+		textSize(50);	
+		text('Game Over',width/2-150,height/2,500,500);
 		if(backgroundSound.isPlaying()){
 			backgroundSound.pause()
 		}
@@ -152,8 +152,8 @@ function draw()
 	}
 
 	else if(flagpole.isReached){
-		fill(255,0,0);
-		textSize(100);
+		fill(187,51,255);
+		textSize(50);
 		text('LEVEL COMPLETE',width/2,height/2,500,500);
 		if(backgroundSound.isPlaying){
 			backgroundSound.pause();
